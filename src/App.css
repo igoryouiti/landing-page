@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #ebf2f5;
+  background-color: #ffffff;
+}
+
+p, span, h1, h2, input, button{
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}

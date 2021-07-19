@@ -1,0 +1,168 @@
+.land-page {
+  height: 100vh;
+  width: 100vw;
+
+  background-image: url('../../images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+}
+
+.land-page-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 65% 35%; 
+
+  align-content: center;
+  justify-items: center;
+
+  height: 27.5rem;
+  width: 53rem;
+  bottom: -6.25rem;
+  left: 15rem;
+}
+
+.left-side-container{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+
+}
+
+.event-date{
+
+}
+
+.event-date p{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.head-line {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.head-line h1{
+
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #D4AF37;
+}
+
+.left-deck{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.left-deck p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+.left-deck p:nth-child(2),
+.left-deck p:nth-child(3) span {
+  color: red;
+}
+.left-deck p:nth-child(3) span {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.right-side-container{
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+}
+
+.attention-call {
+  font-size: 1.6rem;
+  font-weight: 300;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.attention-call p:nth-child(2) {
+  background-color:#a01c3a;
+}
+
+.right-side-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-deck {
+  font-size: 2.4rem;
+
+  font-weight: 700;
+}
+
+.right-deck p {
+  align-items: left;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.bullet{
+  flex-wrap: wrap;
+
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+
+.form-container{
+  border: 0.2rem solid black;
+  border-radius: 8px;
+
+  width: 50%;
+  height: 30%;
+}
+
+.form-container p{
+  font-weight: 500;
+}
+
+.form-lead {
+
+}
+
+.form-lead input, button{
+  font-size: 0.8rem;
+  width: 90%;
+  height: 1.2rem;
+}
+
+.form-lead button{
+  background-color: #D4AF37;
+  color: #ebf2f5;
+  font-weight: 600;
+}
+
+.countdown-container {
+  
+}
+
+.countdown-container p{
+
+}
+
+
+.countdown {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+}
