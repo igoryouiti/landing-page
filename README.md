@@ -1,3 +1,14 @@
+Projeto GamaAcademy com Vtex - Landing Page
+
+layout figma: https://www.figma.com/file/LPhks1ngHdSPfG7iGatATq/Landing-Page?node-id=0%3A1
+Feito pela Cássia Mika Sato.
+
+link netlify: https://upbeat-shannon-718550.netlify.app/
+
+Não está completo, falta muito css e javascript para salvar os dados no local storage.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
